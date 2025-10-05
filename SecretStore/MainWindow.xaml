@@ -107,7 +107,6 @@
 
         <!-- 🖥 Подключение к Postgres -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" >
-            <Button x:Name="ConnectDbButton" Content="Подключиться к Postgre" Width="200"   Foreground="White" Click="ConnectDbButton_Click"/>
             <TextBlock x:Name="DbStatusText" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Consolas" Foreground="Yellow"/>
         </StackPanel>
     </Grid>
